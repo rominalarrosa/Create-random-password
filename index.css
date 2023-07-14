@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    /* unpopulated-state */
+
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+
+    background: #1F2937;
+        /* white */
+    color: #FFFFFF;
+    
+    /* Heading */
+    
+}
+h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    letter-spacing: -0.025em;
+    margin: 0px;
+}
+
+span {
+    color: #4ADF86;
+    font-style: bold;
+    margin-bottom: 0px;
+}
+
+p {
+/* text-xl/leading-7/font-normal */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Medium grey */
+color: #D5D4D8;
+margin-top: 10px;
+}
+
+#lenth{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+input {
+   width: 45px;
+   font-size: 24px;
+}
+
+button {
+/* text-base/leading-6/font-medium */
+font-family: 'Karla';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+background: #10B981;
+border-radius: 5px;
+border-style: none;
+}
+
+div{
+  /* Line 17 */
+margin-top: 50px;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 361px;
+
+border: 1px solid #2F3E53;
+
+}
+
+#password-One{
+
+
+text-align: center;
+margin-top: 40px;
+width: 211px;
+height: 39px;
+left: 52px;
+top: 396px;
+
+background: #273549;
+border-radius: 6px;
+color: #55F991;
+
+}
+
+#password-Two{
+
+text-align: center;
+margin-top:10px;
+width: 211px;
+height: 39px;
+left: 287px;
+top: 396px;
+
+background: #273549;
+border-radius: 6px;
+color: #55F991;
+
+
+}
